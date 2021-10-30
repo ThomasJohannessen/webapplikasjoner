@@ -10,9 +10,14 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
-          <Link href="/side2">
-            <a>Side2</a>
+          <Link href="/api/list">
+            <a>Liste</a>
           </Link>
+          <li>
+          <Link href="/api/Senddate">
+            <a>Send data</a>
+          </Link>
+        </li>
         </li>
       </ul>
     </nav>
